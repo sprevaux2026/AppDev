@@ -40,3 +40,18 @@ feedback.push({ customerName: "Nick Furry", feedbackText: "Excellent support tea
 
 console.log("Customer Feedback Records:", feedback);
 
+// Task 5: Inventory Management System
+let inventory = {
+    itemName: "Plasma Cannon",
+    stockCount: 150,
+    price: 250000.00,
+    
+    calculateTotalValue: function() {
+        return this.stockCount * this.price; // Method to calculate the total inventory value
+    }
+};
+
+// Logging the inventory details
+console.log("Inventory Details:", inventory);
+// Logging the total value calculated using the method
+console.log("Total Inventory Value:", inventory.calculateTotalValue());
