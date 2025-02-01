@@ -28,3 +28,15 @@ employee.performanceScore = 85; // Update the performance score
 employee.promotionEligible = true; // Add a new property for promotion eligibility
 console.log("Updated Employee Record:", employee);
 
+// Task 4: Customer Feedback Records
+let feedback = [
+    { customerName: "Tony stark", feedbackText: "Great service but i can speed it up!", rating: 6 },
+    { customerName: "Bruce Banner", feedbackText: "Loved the product quality it didnt make me angry.", rating: 10 },
+    { customerName: "Jeff the Land Shark", feedbackText: "Could improve shipping speed RAWR.", rating: 3 }
+];
+
+
+feedback.push({ customerName: "Nick Furry", feedbackText: "Excellent support team!", rating: 10 }); // Add a new feedback record
+
+console.log("Customer Feedback Records:", feedback);
+
